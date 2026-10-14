@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Jagmohan Das | Software Engineer</title>
+    <meta
+      name="description"
+      content="Jagmohan Das — Software Engineer building scalable backend systems, computer vision solutions, full-stack applications and interactive digital experiences. Based in Hyderabad, India."
+    />
+    <meta
+      name="keywords"
+      content="Jagmohan Das, Software Engineer, Backend Engineer, Django, Python, Computer Vision, YOLOv8, GeoDjango, Flutter, Hyderabad"
+    />
+    <meta name="author" content="Jagmohan Das" />
+    <meta name="theme-color" content="#0b0d12" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jagmohan Das | Software Engineer" />
+    <meta
+      property="og:description"
+      content="Building Intelligent Systems. Engineering Immersive Experiences."
+    />
+    <meta property="og:site_name" content="Jagmohan Das" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Jagmohan Das | Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Building Intelligent Systems. Engineering Immersive Experiences."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Apply stored theme before paint to avoid flash -->
+    <script>
+      try {
+        var t = localStorage.getItem('jd-theme')
+        if (t !== 'light' && t !== 'dark') t = 'dark'
+        document.documentElement.setAttribute('data-theme', t)
+        document.documentElement.style.colorScheme = t
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
